@@ -1,0 +1,45 @@
+
+.octocat img {
+  width: 300px;
+  border: 1px solid black;
+  margin-left: 1px;
+}
+
+.authors {
+  padding: 4px;
+  display: inline-block;
+}
+
+.authors img {
+  width: 20px;
+  float: right;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.image-caption {
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  color: black;
+  margin-right: 9px;
+}
+
+.octocat {
+  max-width: 300px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid black;
+}
+
+.image-number {
+  display: inline-block;
+  color: black;
+}
+
+.image-number::before {
+  content: "#";
+  color: black;
+}
